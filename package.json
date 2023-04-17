@@ -7,7 +7,7 @@
     "test": "jest",
     "start": "node ./lib/index.js",
     "start:dev": "nodemon ./src/index.ts",
-    "build": "node ./lib/index.js"
+    "build": "tsc && node ./lib/index.js"
   },
   "keywords": [],
   "author": "",
